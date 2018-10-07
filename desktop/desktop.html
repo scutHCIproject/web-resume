@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/fullpage.css" />
+    <style>
+    *{ padding:0px; margin:0}
+    body{ color:#fff; font-family:"Microsoft Yahei"; text-align:center;}
+</style>
+</head>
+
+<body>
+<div id="fullpage">
+    <div class="section">Page1</div>
+    <div class="section">Page2</div>
+    <div class="section">Page3</div>
+    <div class="section">Page4</div>
+    <div class="section">Page5</div>
+</div>
+
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/fullpage.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$('#fullpage').fullpage({
+		sectionsColor:['#FF9966','#5c7ff1','#009966','#9933CC','#CC9966'], //控制每个section的背景颜色
+		css3: true, //是否使用 CSS3 transforms 滚动(默认为false)
+		scrolllingSpeed:700,
+		anchors:['page1','page2','page3','page4'],
+		lockAnchors:false,
+		loopTop:false,
+		loopHorizontal:false,
+		autoScrolling:true,
+		scrollBar:false,
+		menu:".menu",
+		keyboardScrolling:true,
+		navigation:true,
+		navigationColor:'#996666', //项目导航的颜色
+		slidesNavigation:true,
+	});
+});
+</script>
+</body>
+</html>
