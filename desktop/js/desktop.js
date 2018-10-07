@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	$('#fullpage').fullpage({
 		sectionsColor:['#FF9966','#5c7ff1','#009966','#9933CC','#CC9966'], //控制每个section的背景颜色
-		css3: true, //是否使用 CSS3 transforms 滚动(默认为false)
+		css3: true,
 		scrolllingSpeed:700,
 		anchors:['page1','page2','page3','page4'],
 		lockAnchors:false,
