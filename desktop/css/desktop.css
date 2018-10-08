@@ -7,3 +7,146 @@ body{
     font-family:"Microsoft Yahei"; 
     text-align:center;
 }
+
+.section{
+    text-align: center;
+    min-width: 1366px;
+    min-height: 768px;
+}
+
+.pageHeader{
+    color: #fff;
+    position: relative;
+    font-size: 50px;
+}
+
+.rollPointer{
+    display: flex;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 25%;
+}
+
+.page5Contact{
+    width: 300px;
+    height: 100px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.page5Img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.page5Text{
+    width: 200px;
+    height: 30px;
+    font-size: 25px;
+    position: relative;
+}
+
+.qqContact{
+    top: -5%;
+    left: -16%;
+}
+
+.qqText{
+    color: white;
+    position: relative;
+    top: 40px;
+    right: 30px;
+}
+
+.qqImg{
+    float: right;
+}
+
+.weChatContact{
+    top: -1%;
+    left: -22%;
+    width: 400px;
+}
+
+.weChatText{
+    width: 500px;
+    color: white;
+    top: 30px;
+}
+
+.weChatImg{
+    float: right;
+}
+
+
+.weiboContact{
+    top: 5%;
+    left: -18%;
+    width: 500px;
+}
+
+.weiboText{
+
+    width: 500px;
+
+    top: 35px;
+}
+
+.weiboImg{
+    float: right;
+}
+
+.googleEmailContact{
+    top: -37%;
+    right: -20%;
+    width: 500px;
+}
+
+.googleEmailImg{
+
+}
+
+.googleEmailText{
+
+width: 500px;
+
+top: 40px;
+}
+
+.twiterContact{
+    top: -32%;
+    right: -20%;
+    width: 400px;
+}
+
+.twitterImg{
+
+}
+
+.twitterText{
+
+width: 300px;
+
+top: 40px;
+}
+
+.facebookContact{
+    top: -27%;
+    right: -20%;
+    width: 600px;
+}
+
+.facebookImg{
+
+}
+
+.faceBookText{
+    
+width: 500px;
+    
+top: 40px;
+}

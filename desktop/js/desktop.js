@@ -12,7 +12,7 @@ $(document).ready(function() {
 		menu:".menu",
 		keyboardScrolling:true,
 		navigation:true,
-		navigationColor:'#996666', //项目导航的颜色
+		navigationColor:'#fff', //项目导航的颜色
 		slidesNavigation:true,
 	});
 });
