@@ -14,5 +14,6 @@ $(document).ready(function() {
 		navigation:true,
 		navigationColor:'#fff', //项目导航的颜色
 		slidesNavigation:true,
+		loopHorizontal: true,
 	});
 });
