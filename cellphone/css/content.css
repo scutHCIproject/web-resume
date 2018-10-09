@@ -1,0 +1,16 @@
+#section3{
+		background-image: url(imgs/bg1.jpg);
+
+		}
+#section3 h1{
+		top: 10%;
+		transform: translateY(-50%);
+		position: relative;
+}
+#section3 p{
+		top:50%
+		transform: translateY(-30%);
+		position: relative;
+		color:#FFFFFF;
+}
+
