@@ -679,14 +679,220 @@ transform: scale(0);
 .skillText{border:2px solid #FF6699;border-radius:20px}
 .skillspan img{margin:30px;width:60px;height:50px}
 
-.infoText{line-high:200%;margin-left:20px;margin-top:20px; }
-.avatarimg{margin-left:20px;margin-bottom:20px; }
-.infoText p{line-height:25px;font-size:18px;}
+.infoText{line-high:200%;margin-left:20px;margin-top:20px;opacity: 0;}
+.avatarimg{margin-left:20px;margin-bottom:20px;position: relative;top: 140px;}
+.page2ImgAnimation{
+    animation-name: page2ImgAnimation;
+    animation-duration: 1s;
+    animation-delay: 0.8s;
+    animation-fill-mode: forwards;
+
+    -webkit-animation-name: page2ImgAnimation;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 0.8s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes page2ImgAnimation{
+    from{
+        top: 140px;
+    }
+    to{
+        top: 0px;
+    }
+}
+
+@-webkit-keyframes page2ImgAnimation{
+    from{
+        top: 140px;
+    }
+    to{
+        top: 0px;
+    }
+}
+.infoText{line-height:25px;font-size:18px;opacity: 0;}
+p{line-height:25px;font-size:18px;}
+.page2ImgTextAnimation{
+    animation-name: page2ImgTextAnimation;
+    animation-duration: 1s;
+    animation-delay: 1.6s;
+    animation-fill-mode: forwards;
+
+    -webkit-animation-name: page2ImgTextAnimation;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 1.6s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes page2ImgTextAnimation{
+    from{
+        opacity: 0;    
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes page2ImgTextAnimation{
+    from{
+        opacity: 0;    
+    }
+    to{
+        opacity: 1;
+    }
+}
 .otherinfo h3{width:100px; margin-bottom:15px;font-style:oblique; font-size:22px;background-color:#FF6699;border-radius:20px;}
-.educationbox p{text-indent:20px;font-style:oblique;  font-size:18px;}
+.educationText p{text-indent:20px;font-style:oblique;  font-size:18px;}
 .awardText p{text-indent:20px;font-style:oblique;  font-size:18px;}
 
+.educationbox{
+
+position: relative;
+
+left: 300px;
+opacity: 0;
+}
+
+.educationboxAnimation{
+    animation-name: educationboxAnimation;
+    animation-duration: 1s;
+    animation-delay: 2.4s;
+    animation-fill-mode: forwards;
+
+    -webkit-animation-name: educationboxAnimation;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 2.4s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes educationboxAnimation{
+    from{
+        left: 300px;
+        opacity: 0;    
+    }
+    to{
+        left: 0px;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes educationboxAnimation{
+    from{
+        left: 300px;
+        opacity: 0;    
+    }
+    to{
+        left: 0px;
+        opacity: 1;
+    }
+}
+
+.awardbox{
+
+position: relative;
+
+left: 200px;
+opacity: 0;
+}
+.awardboxAnimation{
+    animation-name: awardboxAnimation;
+    animation-duration: 1s;
+    animation-delay: 2.4s;
+    animation-fill-mode: forwards;
+
+    -webkit-animation-name: awardboxAnimation;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 2.4s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes awardboxAnimation{
+    from{
+        left: 200px;
+        opacity: 0;    
+    }
+    to{
+        left: 0px;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes awardboxAnimation{
+    from{
+        left: 200px;
+        opacity: 0;    
+    }
+    to{
+        left: 0px;
+        opacity: 1;
+    }
+}
+
+.skillbox{
+    
+position: relative;
+    
+left: 100px;
+opacity: 0;
+}
+
+.skillboxAnimation{
+    animation-name: skillboxAnimation;
+    animation-duration: 1s;
+    animation-delay: 2.4s;
+    animation-fill-mode: forwards;
+
+    -webkit-animation-name: skillboxAnimation;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 2.4s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes skillboxAnimation{
+    from{
+        left: 100px;
+        opacity: 0;    
+    }
+    to{
+        left: 0px;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes skillboxAnimation{
+    from{
+        left: 100px;
+        opacity: 0;    
+    }
+    to{
+        left: 0px;
+        opacity: 1;
+    }
+}
+
 .page5Container{width: 1000px;height: 400px;margin-left: auto;margin-right: auto;}
+
+.FirstText{
+margin-left:auto;
+margin-right:auto;
+position:relative;
+width:522px;
+height:129px;
+font-family:'æ–¹æ­£å§šä½“ Oblique', 'æ–¹æ­£å§šä½“';
+font-weight:400;
+font-style:oblique;
+font-size:72px;
+}
+
+
+
+.page5Container{
+width: 1000px;
+height: 400px;
+margin-left: auto;
+margin-right: auto;
+}
+
 .page5Header{
     border-color: white;
     border-style: solid;
@@ -711,4 +917,4 @@ transform: scale(0);
     margin: 30px;
 }
 .page5 h3{font-size:36px;}
-.FirstText{border-width:0px; position:relative; width:522px; height:129px;font-family:'Ã¦â€“Â¹Ã¦Â­Â£Ã¥Â§Å¡Ã¤Â½â€œ Oblique', 'Ã¦â€“Â¹Ã¦Â­Â£Ã¥Â§Å¡Ã¤Â½â€œ';font-weight:400; font-style:oblique;  font-size:72px;  color:#FFFFFF;  }
+.FirstText{border-width:0px; position:relative; width:522px; height:129px;font-family:'ÃƒÂ¦Ã¢â‚¬â€œÃ‚Â¹ÃƒÂ¦Ã‚Â­Ã‚Â£ÃƒÂ¥Ã‚Â§Ã…Â¡ÃƒÂ¤Ã‚Â½Ã¢â‚¬Å“ Oblique', 'ÃƒÂ¦Ã¢â‚¬â€œÃ‚Â¹ÃƒÂ¦Ã‚Â­Ã‚Â£ÃƒÂ¥Ã‚Â§Ã…Â¡ÃƒÂ¤Ã‚Â½Ã¢â‚¬Å“';font-weight:400; font-style:oblique;  font-size:72px;  color:#FFFFFF;  }
