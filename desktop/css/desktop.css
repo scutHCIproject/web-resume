@@ -287,7 +287,40 @@ right: 380px;
     box-sizing: border-box;
     
     padding: 30px 20px;
+
+    position: relative;
+    right: 380px;
+}
+
+.page3Img3Animation{
+    animation-name: page3Img3Animation;
+    animation-duration: 1s;
+    animation-delay: 0.8s;
+    animation-fill-mode: forwards;
+
+    -webkit-animation-name: page3Img3Animation;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 0.8s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes page3Img3Animation{
+    from{
+        right: 380px;
     }
+    to{
+        right: 0px;
+    }
+}
+
+@-webkit-keyframes page3Img3Animation{
+    from{
+        right: 380px;
+    }
+    to{
+        right: 0px;
+    }
+}
     
 .page3Text4{
     
@@ -308,6 +341,9 @@ right: 380px;
     padding-left: 100px;
     
     padding-right: 50px;
+
+    opacity: 0;
+
 }
     
 .page3Text4Title{
@@ -334,11 +370,43 @@ right: 380px;
     padding-left: 50px;
     
     padding-right: 100px;
+
+    opacity: 0;
 }
     
 .page3Text3Title{
         
     font-size: 30px;
+}
+
+.page3Text34Animation{
+    animation-name: page3Text34Animation;
+    animation-duration: 1s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+
+    -webkit-animation-name: page3Text34Animation;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 1.5s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes page3Text34Animation{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes page3Text34Animation{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
     
 .page3Img4{
@@ -352,6 +420,39 @@ right: 380px;
     box-sizing: border-box;
         
     padding: 30px 20px;
+
+    position: relative;
+    left: 380px;
+}
+
+.page3Img4Animation{
+    animation-name: page3Img4Animation;
+    animation-duration: 1s;
+    animation-delay: 0.8s;
+    animation-fill-mode: forwards;
+
+    -webkit-animation-name: page3Img4Animation;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 0.8s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes page3Img4Animation{
+    from{
+        left: 380px;
+    }
+    to{
+        left: 0px;
+    }
+}
+
+@-webkit-keyframes page3Img4Animation{
+    from{
+        left: 380px;
+    }
+    to{
+        left: 0px;
+    }
 }
 
 .section{
@@ -383,6 +484,14 @@ width: 400px;
 height: 400px;
 }
 
+.page4Img{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    background-color: white;
+}
+
+
 .page4Img1Container{
     width: 250px;
     height: 120px;
@@ -392,16 +501,19 @@ height: 400px;
 }
 
 .page4Img1Text{
-
-font-size: 50px;
-
-margin-top: 40px;
+    font-size: 50px;
+    margin-top: 40px;
+    position: relative;
+    right: 100px;
+    opacity: 0;
 }
 
 .page4Img1{
-
-float: right;
+    float: right;
+    transform: scale(0);
 }
+
+
 
 .page4Img2Container{
     width: 250px;
@@ -414,11 +526,17 @@ float: right;
 .page4Img2Text{
     font-size: 50px;
     margin-top: 40px;
+    position: relative;
+    right: 100px;
+    opacity: 0;
+
 }
 
 .page4Img2{
 
 float: right;
+transform: scale(0);
+
 }
 
 .page4Img3Container{
@@ -432,11 +550,16 @@ float: right;
 .page4Img3Text{
     font-size: 50px;
     margin-top: 40px;
+    position: relative;
+    right: 100px;
+    opacity: 0;
 }
 
 .page4Img3{
 
 float: left;
+transform: scale(0);
+
 }
 
 .page4Img4Container{
@@ -450,20 +573,96 @@ float: left;
 .page4Img4Text{
     font-size: 50px;
     margin-top: 40px;
+    position: relative;
+    right: 100px;
+    opacity: 0;
 }
 
 .page4Img4{
 
 float: left;
+transform: scale(0);
+
 }
 
-.page4Img{
-    width: 120px;
-    height: 120px;
-    border-radius: 60px;
-    background-color: white;
+
+.page4Img12TextAnimation{
+    animation-name: page4Img12TextAnimation;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+
+    -webkit-animation-name: page4Img12TextAnimation;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards;
 }
 
+@keyframes page4Img12TextAnimation{
+    from{
+        right: 100px;
+        opacity: 0;
+    }
+    to{
+        right: 0px;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes page4Img12TextAnimation{
+    from{
+        right: 100px;    
+        opacity: 0;
+    }
+    to{
+        right: 0px;
+        opacity: 1;
+    }
+}
+
+.page4Img34TextAnimation{
+    animation-name: page4Img34TextAnimation;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+
+    -webkit-animation-name: page4Img34TextAnimation;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes page4Img34TextAnimation{
+    from{
+        left: 100px;
+        opacity: 0;
+    }
+    to{
+        left: 0px;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes page4Img34TextAnimation{
+    from{
+        left: 100px;    
+        opacity: 0;
+    }
+    to{
+        left: 0px;
+        opacity: 1;
+    }
+}
+
+.page4ImgAnimation{
+    transform: scale(1);
+    transition-delay: 1s;
+    transition-duration: 1s;
+
+    -webkit-transform: scale(1);
+    -webkit-transition-delay: 1s;
+    -webkit-transition-duration: 1s;
+}
 
 
 .page2Container{width: 1000px; height: 650px; margin-left: auto; margin-right: auto;}
@@ -481,7 +680,7 @@ float: left;
 .skillspan img{margin:30px;width:60px;height:50px}
 
 .infoText{line-high:200%;margin-left:20px;margin-top:20px; }
-.avatarimg{margin-left:20px;margin-bottom:20px;}
+.avatarimg{margin-left:20px;margin-bottom:20px; }
 .infoText p{line-height:25px;font-size:18px;}
 .otherinfo h3{width:100px; margin-bottom:15px;font-style:oblique; font-size:22px;background-color:#FF6699;border-radius:20px;}
 .educationbox p{text-indent:20px;font-style:oblique;  font-size:18px;}

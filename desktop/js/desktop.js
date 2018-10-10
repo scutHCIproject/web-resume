@@ -24,8 +24,27 @@ $(document).ready(function() {
 				document.getElementById('page3Text1').classList.add('page3Text12Animation');
 				document.getElementById('page3Text2').classList.add('page3Text12Animation');
 			}
-		}
 
+			if(destination.index == 3){
+				document.getElementById('page4Img1').classList.add('page4ImgAnimation');
+				document.getElementById('page4Img2').classList.add('page4ImgAnimation');
+				document.getElementById('page4Img3').classList.add('page4ImgAnimation');
+				document.getElementById('page4Img4').classList.add('page4ImgAnimation');
+				document.getElementById('page4Img1Text').classList.add('page4Img12TextAnimation');
+				document.getElementById('page4Img2Text').classList.add('page4Img12TextAnimation');
+				document.getElementById('page4Img3Text').classList.add('page4Img34TextAnimation');
+				document.getElementById('page4Img4Text').classList.add('page4Img34TextAnimation');
+			}
+		},
+
+		afterSlideLoad( section, origin, destination, direction){
+			if(section.index == 2 && destination.index == 1){
+				document.getElementById('page3Img3').classList.add('page3Img3Animation');
+				document.getElementById('page3Img4').classList.add('page3Img4Animation');
+				document.getElementById('page3Text3').classList.add('page3Text34Animation');
+				document.getElementById('page3Text4').classList.add('page3Text34Animation');
+			}
+		}
 		});
 });
 
