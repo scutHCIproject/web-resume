@@ -40,7 +40,7 @@ html .fp-enabled,
     -webkit-transition: all 0.3s ease-out; /* Safari<=6 Android<=4.3 */
     transition: all 0.3s ease-out;
 }
-/*.fp-section.fp-table, .fp-slide.fp-table {
+.fp-section.fp-table, .fp-slide.fp-table {
     display: table;
     table-layout:fixed;
     width: 100%;
@@ -54,7 +54,7 @@ html .fp-enabled,
 .fp-slidesContainer {
     float: left;
     position: relative;
-}*/
+}
 .fp-controlArrow {
     -webkit-user-select: none; /* webkit (safari, chrome) browsers */
     -moz-user-select: none; /* mozilla browsers */
