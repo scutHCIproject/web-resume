@@ -274,7 +274,6 @@ padding: 30px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: cadetblue;
 }
 
 .page4CenterImg{
@@ -290,7 +289,6 @@ height: 400px;
     position: relative;
     bottom: 160px;
     left: 230px;
-    background-color: aqua;
 }
 
 .page4Img1Text{
@@ -308,7 +306,6 @@ float: right;
 .page4Img2Container{
     width: 250px;
     height: 120px;
-    background-color: sandybrown;
     position: relative;
     top: 110px;
     left: 60px;
@@ -327,10 +324,9 @@ float: right;
 .page4Img3Container{
     width: 250px;
     height: 120px;
-    background-color: coral;
     position: relative;
     bottom: 130px;
-    right: 60px;
+    right: 40px;
 }
 
 .page4Img3Text{
@@ -344,17 +340,16 @@ float: left;
 }
 
 .page4Img4Container{
-    width: 260px;
+    width: 280px;
     height: 120px;
-    background-color: darkgreen;
     position: relative;
     top: 160px;
-    right: 160px;
+    right: 200px;
 }
 
 .page4Img4Text{
     font-size: 50px;
-
+    margin-top: 40px;
 }
 
 .page4Img4{
