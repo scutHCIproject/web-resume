@@ -25,6 +25,7 @@
         // Browser globals.
         window.fullpage = factory(window, document);
     }
+	
 }(this, window, document, function(window, document){
     'use strict';
 
