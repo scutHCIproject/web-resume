@@ -7,7 +7,7 @@
 		left:35%;
 		top:30%;
 		color: #fff;
-		font-family:'Arial Normal', 'Arial';
+		font-family:'Arial Normal', 'Arial';  
   		font-size:80px;
 		position: absolute;
 }
@@ -152,11 +152,11 @@ img.yiqian{
 	height: 295px;
 	width: 490px;
 	position: absolute;
-	top: 18%;
+	top: 15%;
 	left:5%;
 }
 #section2 h2{
-		top: 36%;
+		top: 33%;
 	left:5%;
 			font-family:'Arial Negreta', 'Arial Normal', 'Arial';
 	font-weight:bold;
@@ -165,7 +165,7 @@ img.yiqian{
 		position: absolute;
 }
 #section2 p1{
-		top: 42%;
+		top: 39%;
 	left:5%;
 		font-family:'Arial Negreta', 'Arial Normal', 'Arial';
 	
@@ -178,11 +178,11 @@ img.xiangmi{
 	height: 295px;
 	width: 490px;
 	position: absolute;
-	top: 52%;
+	top: 49%;
 	left:5%;
 }
 #section2 h3{
-		top: 70%;
+		top: 66%;
 	left:5%;
 			font-family:'Arial Negreta', 'Arial Normal', 'Arial';
 	font-weight:bold;
@@ -191,7 +191,7 @@ img.xiangmi{
 		position: absolute;
 }
 #section2 p2{
-		top: 76%;
+		top: 73%;
 	left:5%;
 		font-family:'Arial Negreta', 'Arial Normal', 'Arial';
 	
@@ -252,6 +252,7 @@ img.music{
 }
 			#section4{
   background-color:rgba(153, 102, 102, 1);
+
 
 	}
 
