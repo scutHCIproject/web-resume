@@ -1,5 +1,3 @@
-
-if(destination.index == 0)
-	{
-		document.getElementById('section0').classList.add('appear');
-	}
+    var myFullpage = new fullpage('#fullpage', {
+        verticalCentered: false,
+	});

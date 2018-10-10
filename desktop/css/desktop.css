@@ -871,6 +871,28 @@ opacity: 0;
 }
 
 .page5Container{width: 1000px;height: 400px;margin-left: auto;margin-right: auto;}
+
+.FirstText{
+margin-left:auto;
+margin-right:auto;
+position:relative;
+width:522px;
+height:129px;
+font-family:'æ–¹æ­£å§šä½“ Oblique', 'æ–¹æ­£å§šä½“';
+font-weight:400;
+font-style:oblique;
+font-size:72px;
+}
+
+
+
+.page5Container{
+width: 1000px;
+height: 400px;
+margin-left: auto;
+margin-right: auto;
+}
+
 .page5Header{
     border-color: white;
     border-style: solid;
