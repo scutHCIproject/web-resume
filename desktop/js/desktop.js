@@ -19,3 +19,12 @@ $(document).ready(function() {
 
 		});
 });
+
+function overqq(){document.getElementById("qqlabel").style.visibility="visible";}
+function overwechat(){document.getElementById("wechatlabel").style.visibility="visible";}
+function overweibo(){document.getElementById("weibolabel").style.visibility="visible";}
+function overgoogle(){document.getElementById("googlelabel").style.visibility="visible";}
+function outqq(){document.getElementById("qqlabel").style.visibility="hidden";}
+function outwechat(){document.getElementById("wechatlabel").style.visibility="hidden";}
+function outweibo(){document.getElementById("weibolabel").style.visibility="hidden";}
+function outgoogle(){document.getElementById("googlelabel").style.visibility="hidden";}
