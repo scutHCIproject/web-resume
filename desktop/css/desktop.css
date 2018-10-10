@@ -274,6 +274,7 @@ padding: 30px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: cadetblue;
 }
 
 .page4CenterImg{
@@ -289,6 +290,7 @@ height: 400px;
     position: relative;
     bottom: 160px;
     left: 230px;
+    background-color: aqua;
 }
 
 .page4Img1Text{
@@ -306,6 +308,7 @@ float: right;
 .page4Img2Container{
     width: 250px;
     height: 120px;
+    background-color: sandybrown;
     position: relative;
     top: 110px;
     left: 60px;
@@ -324,9 +327,10 @@ float: right;
 .page4Img3Container{
     width: 250px;
     height: 120px;
+    background-color: coral;
     position: relative;
     bottom: 130px;
-    right: 40px;
+    right: 60px;
 }
 
 .page4Img3Text{
@@ -340,16 +344,17 @@ float: left;
 }
 
 .page4Img4Container{
-    width: 280px;
+    width: 260px;
     height: 120px;
+    background-color: darkgreen;
     position: relative;
     top: 160px;
-    right: 200px;
+    right: 160px;
 }
 
 .page4Img4Text{
     font-size: 50px;
-    margin-top: 40px;
+
 }
 
 .page4Img4{
@@ -363,3 +368,33 @@ float: left;
     border-radius: 60px;
     background-color: white;
 }
+
+
+
+.page2Container{width: 1000px; height: 650px; margin-left: auto; margin-right: auto;}
+.page2{display: flex; align-content: center;}
+
+.page2span{width: 1000px;height:650px;float: left; box-sizing: border-box;padding: 30px 20px;text-align:left;}
+.basicinfo{width: 300px;height:550px;float:left;margin-left:20px; box-sizing: border-box;padding: 30px 20px;text-align:left;}
+.otherinfo{width: 580px;height:500px;float: right;margin-right:20px; box-sizing: border-box;padding: 30px 20px;text-align:left;}
+
+.educationbox{margin-bottom:20px;}
+.educationText{border:2px solid #FF6699;border-radius:20px}
+.awardbox{margin-top:30px;margin-bottom:20px;}
+.awardText{border:2px solid #FF6699;border-radius:20px}
+.skillText{border:2px solid #FF6699;border-radius:20px}
+.skillspan img{margin:30px;width:60px;height:50px}
+
+.infoText{line-high:200%;margin-left:20px;margin-top:20px; }
+.avatarimg{margin-left:20px;margin-bottom:20px;}
+.infoText p{line-height:25px;font-size:18px;}
+.otherinfo h3{width:100px; margin-bottom:15px;font-style:oblique; font-size:22px;background-color:#FF6699;border-radius:20px;}
+.educationbox p{text-indent:20px;font-style:oblique;  font-size:18px;}
+.awardText p{text-indent:20px;font-style:oblique;  font-size:18px;}
+
+.page5Container{width: 1000px; height:300px; margin-left: auto; margin-right: auto;}
+.page5{display: flex; align-content: center;}
+.page5span1 img{margin:40px;}
+.page5span2 label{margin:25px;visibility:hidden;}
+.page5 h3{font-size:36px;margin-bottom:60px;}
+.FirstText{border-width:0px; position:relative; width:522px; height:129px;font-family:'方正姚体 Oblique', '方正姚体';font-weight:400; font-style:oblique;  font-size:72px;  color:#FFFFFF;  }
