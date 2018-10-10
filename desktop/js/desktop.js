@@ -17,6 +17,15 @@ $(document).ready(function() {
 		slidesNavigation:true,
 		loopHorizontal: true,
 
+		onLeave: function(origin, destination, direction){
+			if(destination.index == 2){
+				document.getElementById('page3Img1').classList.add('page3Img1Animation');
+				document.getElementById('page3Img2').classList.add('page3Img2Animation');
+				document.getElementById('page3Text1').classList.add('page3Text12Animation');
+				document.getElementById('page3Text2').classList.add('page3Text12Animation');
+			}
+		}
+
 		});
 });
 
