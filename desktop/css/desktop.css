@@ -274,7 +274,6 @@ padding: 30px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: cadetblue;
 }
 
 .page4CenterImg{
@@ -290,7 +289,6 @@ height: 400px;
     position: relative;
     bottom: 160px;
     left: 230px;
-    background-color: aqua;
 }
 
 .page4Img1Text{
@@ -308,7 +306,6 @@ float: right;
 .page4Img2Container{
     width: 250px;
     height: 120px;
-    background-color: sandybrown;
     position: relative;
     top: 110px;
     left: 60px;
@@ -327,10 +324,9 @@ float: right;
 .page4Img3Container{
     width: 250px;
     height: 120px;
-    background-color: coral;
     position: relative;
     bottom: 130px;
-    right: 60px;
+    right: 40px;
 }
 
 .page4Img3Text{
@@ -344,17 +340,16 @@ float: left;
 }
 
 .page4Img4Container{
-    width: 260px;
+    width: 280px;
     height: 120px;
-    background-color: darkgreen;
     position: relative;
     top: 160px;
-    right: 160px;
+    right: 200px;
 }
 
 .page4Img4Text{
     font-size: 50px;
-
+    margin-top: 40px;
 }
 
 .page4Img4{
@@ -397,4 +392,4 @@ float: left;
 .page5span1 img{margin:40px;}
 .page5span2 label{margin:25px;visibility:hidden;}
 .page5 h3{font-size:36px;margin-bottom:60px;}
-.FirstText{border-width:0px; position:relative; width:522px; height:129px;font-family:'方正姚体 Oblique', '方正姚体';font-weight:400; font-style:oblique;  font-size:72px;  color:#FFFFFF;  }
+.FirstText{border-width:0px; position:relative; width:522px; height:129px;font-family:'æ–¹æ­£å§šä½“ Oblique', 'æ–¹æ­£å§šä½“';font-weight:400; font-style:oblique;  font-size:72px;  color:#FFFFFF;  }
