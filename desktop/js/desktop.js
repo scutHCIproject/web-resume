@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	$('#fullpage').fullpage({
 		licenseKey:'OPEN-SOURCE-GPLV3-LICENSE',
-		sectionsColor:['#FF9966','#5c7ff1','#00B2B2','#FFCC99','#CC9966'], //控制每个section的背景颜色
+		sectionsColor:['#FF9999','#CC99CC','#00B2B2','#FFCC99','#CC9966'], //控制每个section的背景颜色
 		css3: true,
 		scrolllingSpeed:700,
 		//anchors:['page1','page2','page3','page4'],
